@@ -1,0 +1,64 @@
+
+
+
+.aboutTitle{
+    font-size: 60px;
+    background-color: lightpink;
+    box-shadow: 5px 10px 15px;
+    width: 48%;
+    margin-left: 26%;
+    border-radius: 12px;
+    margin-top: 20px;
+    
+}
+
+.aboutUs{
+    margin-top: 30px;
+    padding:65px;
+    width: 1010px;
+    margin-left: 55px;
+    text-align:center;
+    font-size: larger;
+    border-radius: 12px;
+    background-color: lightskyblue;
+    box-shadow: 5px 10px 15px;
+    font-weight: bold;
+    color: gray;
+    
+    /* font-variant: small-caps; */
+}
+.imgAboutUs{
+    
+    border-radius: 20px;
+    margin-top: 40px;
+    box-shadow: 5px 10px 15px 5px gray; 
+
+
+   
+    
+}
+ /* Mobile Responsive layout  */
+
+ @media screen and (max-width: 400px) {
+    .aboutUs{
+        margin-top: 30px;
+        padding: 65px;
+        width: 510px;
+        margin-left: -10px;
+        text-align: center;
+        font-size: larger;
+        border-radius: 10px;
+        background-color:  plum;
+        height: 50%;
+        box-shadow: 5px 20px 15px;
+        font-weight: bold;
+        color: gray;
+    }
+    .aboutTitle{
+        font-size: 40px;
+        background-color: plum;
+        width: 84%;
+        padding: 10px;
+    }
+
+ }

@@ -1,0 +1,44 @@
+.footer {
+   display: flex;
+   flex-direction: column;
+   background-color: pink;
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 20px ;
+    margin-bottom: 40px ;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 5px 10px 15px;
+    
+}
+.meetDevs{
+    display: flex;
+    flex-direction: row;
+    padding-left: 140px;
+}
+
+@media screen and (max-width: 400px) {
+    .meetDevs{
+        background-color: pink;
+        text-align: left;
+        padding-left: 20px;
+        margin-right: 1px;
+        
+    }
+    .footer{
+        display: flex;
+        flex-direction: row;
+        background-color: pink;
+        width: 220%;
+        margin-left: -35px;
+        margin-top: 25px;
+        margin-right: 0px;
+        margin-bottom: 20px;
+        border-radius: 20px;
+        padding: 20px;
+        text-align: center;
+        box-shadow: 5px 10px 15px;
+       
+    }
+}

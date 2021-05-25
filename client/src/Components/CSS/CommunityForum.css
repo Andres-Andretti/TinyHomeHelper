@@ -1,0 +1,23 @@
+.subheaderforumTitle {
+  align-self: center;
+ margin-top: 15px;
+ padding-top: 10px;
+ margin-top: 50px;
+ font-size: 1.5rem;
+ font-weight: 400;
+ text-align: center;
+}
+
+.forumTitle {
+  align-self: center;
+  margin-top: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 50px;
+  font-size: 2rem;
+  font-weight: 400;
+  text-align: center;
+  border-radius: 92px; 
+  background-color:lightskyblue;
+  box-shadow: 5px 10px 15px;
+}

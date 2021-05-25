@@ -1,0 +1,56 @@
+.containerCheckList{
+    display: flex;
+    flex-direction: row;
+    background-color: lightskyblue;
+    padding: 20px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    box-shadow: 10px 15px 10px ;
+    font-style: italic;
+    font-weight: bold;
+}   
+.checklistTitle{
+    background-color: pink;
+    padding:20px;
+    border-radius: 12px;
+    box-shadow: 10px 15px 10px black;
+    margin-top: 60px;
+    font-weight: bold;
+}
+
+.checkListHeader{
+    background-color:lightskyblue;
+    padding:20px;
+    border-radius: 12px;
+    box-shadow: 10px 25px 10px black ;
+    margin-top: 60px;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+
+}
+
+
+ /* Mobile Responsive layout  */
+ @media screen and (max-width: 400px) {
+    .containerCheckList{
+        
+        background-color: lightskyblue;
+        padding: 20px;
+        font-size: 2px;
+        margin-bottom: 40px;
+        margin-top: 40px;
+        margin-left: -20px;
+        margin-right: 10px;
+        box-shadow: 10px 15px 10px ;
+        font-style: italic;
+        font-weight: bold;
+    } 
+    .checkListHeader{
+        font-weight: bold;
+ }
+    .checklistTitle{
+        font-weight: bold;
+    }
+
+}
